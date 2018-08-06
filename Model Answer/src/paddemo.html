@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+var centre = function (original) {
+  let result = original
+  while (result.length < 6){
+    if (result.length%2 ){
+      result += ' '
+      
+    }
+    else {
+      result = ' ' + result 
+    }
+  }
+  return result
+  
+}
+
+let padded = centre('a')
+console.log('>', padded , '<')
+
+padded = centre('bb')
+console.log('>', padded , '<')
+
+padded = centre('ccc')
+console.log('>', padded , '<')
+
+padded = centre('dddd')
+console.log('>', padded , '<')
+
+padded = centre('eeeee')
+console.log('>', padded , '<')
+
+padded = centre('ffffff')
+console.log('>', padded , '<')
+
+padded = centre('ggggggg')
+console.log('>', padded , '<')
+
+</script>
+</body>
+</html>

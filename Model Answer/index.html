@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>BCSE101 18S1 Programming Assignment 1</title>
+  <!-- include source files here... -->
+  <script src="src/SetExtensions.js"></script>
+  <script src="src/View.js"></script>
+  <script src="src/Team.js"></script>
+  <script src="src/Match.js"></script>
+  <script src="src/Pool.js"></script>
+  <script src="src/Sport.js"></script>
+  <script src="src/Tournament.js"></script>
+  <script src="src/Controller.js"></script>
+  <script src="src/addPoolResults.js"></script>
+  <script src="src/shortNames.js"></script>
+  <div id="divDisplay"></div>
+</head>
+          
+<body>
+  <script>
+  var the2018Games // GLOBAL FOR DEBUGGING
+    var go = function () {
+      the2018Games = Controller.setup()
+      let theDisplay = document.getElementById( 'divDisplay')
+      document.body.style.fontFamily = 'Courier New'
+      addPoolResults(the2018Games) // NEW LINE FOR ASSIGNMENT 2
+      addShortNames(the2018Games) // NEW LINE FOR ASSIGNMENT 2
+      theDisplay.innerHTML = the2018Games.getAll()
+      console.log( the2018Games ) 
+    }
+    window.onload = go;
+  </script> 
+</body> 
+ 
+</html>
