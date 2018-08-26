@@ -1,4 +1,5 @@
-class Team {
+/* global View */
+class Team {// eslint-disable-line no-unused-vars
   constructor (newName) {
     this.name = newName
     this.shortName = ''
@@ -10,32 +11,32 @@ class Team {
     this.scoreAgainst = 0
     this.poolRank = 0
   }
-  incWin() {
-    this.matchesWon += 1 
+  incWin () {
+    this.matchesWon += 1
   }
-  incLoss() {
-    this.matchesLost += 1 
+  incLoss () {
+    this.matchesLost += 1
   }
-  incPlayed() {
+  incPlayed () {
     this.matchesPlayed += 1
   }
-  incScoreFor(newScoreFor) {
+  incScoreFor (newScoreFor) {
     this.scoreFor += newScoreFor
   }
-  incScoreAgainst(newScoreAgainst) {
-    this.scoreAgainst += newScoreAgainst 
+  incScoreAgainst (newScoreAgainst) {
+    this.scoreAgainst += newScoreAgainst
   }
-  toString() {
+  toString () {
     return this.name
   }
   getResults () {
-    let result = View.SPACES(4)
+    let result = ''
     result += View.padRight(this.matchesPlayed)
     result += View.padRight(this.matchesWon)
     result += View.padRight(this.matchesLost)
     result += View.padRight(this.matchesDrawn)
     result += View.padRight(this.scoreFor)
-    result += View.padRight(this.scoreAgainst)
+    result += this.scoreAgainst
     return result
   }
 }

@@ -1,10 +1,11 @@
+// eslint-disable-line no-unused-vars
 var addPoolResults = function (theTournament) {
   let aSport = theTournament.findSport('Netball')
   aSport.addPoolResult('Australia', 'Jamaica', 72, 51)
   aSport.addPoolResult('Australia', 'South Africa', 60, 38)
   aSport.addPoolResult('Australia', 'Northern Ireland', 94, 26)
   aSport.addPoolResult('Australia', 'Barbados', 79, 24)
-  aSport.addPoolResult('Australia', 'Fiji',108, 23)
+  aSport.addPoolResult('Australia', 'Fiji', 108, 23)
   aSport.addPoolResult('Jamaica', 'South Africa', 57, 46)
   aSport.addPoolResult('Jamaica', 'Northern Ireland', 79, 41)
   aSport.addPoolResult('Jamaica', 'Barbados', 76, 32)
@@ -15,7 +16,7 @@ var addPoolResults = function (theTournament) {
   aSport.addPoolResult('Northern Ireland', 'Barbados', 49, 39)
   aSport.addPoolResult('Northern Ireland', 'Fiji', 73, 46)
   aSport.addPoolResult('Barbados', 'Fiji', 65, 44)
-    
+
   aSport.addPoolResult('England', 'New Zealand', 54, 45)
   aSport.addPoolResult('England', 'Uganda', 55, 49)
   aSport.addPoolResult('England', 'Malawi', 74, 49)
@@ -31,7 +32,7 @@ var addPoolResults = function (theTournament) {
   aSport.addPoolResult('Malawi', 'Scotland', 51, 50)
   aSport.addPoolResult('Malawi', 'Wales', 68, 53)
   aSport.addPoolResult('Scotland', 'Wales', 51, 47)
-  
+
   aSport = theTournament.findSport('Men\'s Rugby Sevens')
   aSport.addPoolResult('Australia', 'Samoa', 24, 7)
   aSport.addPoolResult('England', 'Jamaica', 38, 5)
@@ -57,7 +58,7 @@ var addPoolResults = function (theTournament) {
   aSport.addPoolResult('Fiji', 'Wales', 21, 17)
   aSport.addPoolResult('Papua New Guinea', 'Malaysia', 31, 5)
   aSport.addPoolResult('South Africa', 'Scotland', 26, 5)
-  
+
   aSport = theTournament.findSport('Women\'s Rugby Sevens')
   aSport.addPoolResult('Canada', 'South Africa', 29, 0)
   aSport.addPoolResult('New Zealand', 'Kenya', 45, 0)

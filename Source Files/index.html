@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>BCSE101 18S1 Programming Assignment 1</title>
+
+  <!-- src files -->
+  <script src="src/SetExtensions.js"></script>
+  <script src="src/View.js"></script>
+  <script src="src/Team.js"></script>
+  <script src="src/Match.js"></script>
+  <script src="src/Pool.js"></script>
+  <script src="src/Sport.js"></script>
+  <script src="src/Tournament.js"></script>
+  <script src="src/Controller.js"></script>
+  <script src="src/addPoolResults.js"></script>
+  <script src="src/shortNames.js"></script>
+  <link rel="stylesheet" href="CSS/stylesheet.css">
+</head>
+          
+<body>
+  <header>
+    <!--Creats div for the page title -->
+    <div id="pageTitle">
+      <!-- logo for the commonwealth games -->
+      <img src='CSS/images/logo.png' id="logo">
+
+      <h1>The 2018 Commonwealth Games</h1>
+    </div>
+
+  </header>
+
+  <main>
+    <!--The main div, used for displaying all the information-->
+    <div id="divDisplay"></div>
+  </main>
+
+  <script>
+    //This area is where the script for dynamic content and tournament is run.
+    var the2018Games // GLOBAL FOR DEBUGGING
+    var go = function () {
+      the2018Games = Controller.setup()
+      let theDisplay = document.getElementById( 'divDisplay')
+      addPoolResults(the2018Games) // NEW LINE FOR ASSIGNMENT 2
+      addShortNames(the2018Games) // NEW LINE FOR ASSIGNMENT 2
+      theDisplay.body = the2018Games.getAll()
+      console.log( the2018Games ) 
+    }
+
+    window.onload = go;
+
+    //maindiv
+    var returnAll = document.createElement('div')
+    returnAll.id = 'returnAll'
+    
+    //div for all matches
+    var matchResultsDiv = document.createElement('div')
+    matchResultsDiv.id = 'matchResultsDiv'
+    matchResultsDiv.className = "resultsDiv"
+
+    //div for all Team Results
+    var teamResultsDiv = document.createElement('div')
+    teamResultsDiv.id = 'teamResultsDiv'
+    teamResultsDiv.className = "resultsDiv"
+
+    //div for all results table
+    var resultsDiv = document.createElement('div')
+    resultsDiv.id = 'resultsDiv'
+    resultsDiv.className = "resultsDiv"
+
+  </script> 
+
+</body>
+</html>
