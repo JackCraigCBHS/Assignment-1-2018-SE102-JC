@@ -1,4 +1,4 @@
-// eslint-disable-line no-unused-vars
+// eslint-disable no-unused-vars
 var addPoolResults = function (theTournament) {
   let aSport = theTournament.findSport('Netball')
   aSport.addPoolResult('Australia', 'Jamaica', 72, 51)

@@ -1,3 +1,4 @@
+
 /* global Sport View */
 class Tournament {// eslint-disable-line no-unused-vars
   constructor (newName) {
@@ -28,7 +29,7 @@ class Tournament {// eslint-disable-line no-unused-vars
     }
     return result
   }
-  
+
   getPools () {
     let result = ''
     for (let aSport of this.allMySports) {
@@ -91,7 +92,7 @@ class Tournament {// eslint-disable-line no-unused-vars
   }
 
   getAll () {
-    //this function creates the HTML to output the information from our program
+    // this function creates the HTML to output the information from our program
 
     // creating output for team results
     var head2_1 = document.createElement('h2')
@@ -122,6 +123,12 @@ class Tournament {// eslint-disable-line no-unused-vars
     // append all dynamic content
     let theDisplay = document.getElementById('divDisplay')
     theDisplay.appendChild(returnAll)
+
+    // remove input files so it doesnt break again
+    let theInputRemove = document.getElementById('divloader')
+    theInputRemove.remove()
+    let theButtonRemove = document.getElementById('displayButton')
+    theButtonRemove.remove()
   }
 
   findSport (targetName) {

@@ -16,6 +16,7 @@
   <script src="src/Controller.js"></script>
   <script src="src/addPoolResults.js"></script>
   <script src="src/shortNames.js"></script>
+  <script src="src/fileLoader.js"></script>
   <link rel="stylesheet" href="CSS/stylesheet.css">
 </head>
           
@@ -32,23 +33,18 @@
   </header>
 
   <main>
-    <!--The main div, used for displaying all the information-->
     <div id="divDisplay"></div>
-  </main>
+  	<input type="file" id="divloader" onclick="fileHandler">
 
-  <script>
+    <script>
     //This area is where the script for dynamic content and tournament is run.
     var the2018Games // GLOBAL FOR DEBUGGING
-    var go = function () {
-      the2018Games = Controller.setup()
-      let theDisplay = document.getElementById( 'divDisplay')
-      addPoolResults(the2018Games) // NEW LINE FOR ASSIGNMENT 2
-      addShortNames(the2018Games) // NEW LINE FOR ASSIGNMENT 2
-      theDisplay.body = the2018Games.getAll()
-      console.log( the2018Games ) 
+
+    var fileHandler = function() {
+      document.getElementById('divloader').addEventListener('change', fileChangeHandler);
     }
 
-    window.onload = go;
+    window.onload = fileHandler;
 
     //maindiv
     var returnAll = document.createElement('div')
@@ -69,8 +65,13 @@
     var resultsDiv = document.createElement('div')
     resultsDiv.id = 'resultsDiv'
     resultsDiv.className = "resultsDiv"
-
   </script> 
+
+  	<input type="button" id="displayButton" value="display" onclick='the2018Games.getAll()'>
+
+
+    <!--The main div, used for displaying all the information-->
+  </main>
 
 </body>
 </html>

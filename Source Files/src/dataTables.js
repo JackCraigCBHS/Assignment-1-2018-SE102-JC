@@ -1,38 +1,40 @@
-//This file is to create tables
-//Provided from Moodle
+/* eslint-disable no-unused-vars */
 
-//Creates a blank table
+// This file is to create tables
+// Provided from Moodle
+
+// Creates a blank table
 function makeTable (appendTo) {
-    var newTable 
-    newTable = document.createElement('table')
-    newTable.setAttribute('border', '1')
-    appendTo.appendChild(newTable)
-    return newTable
-  }
-  
-//adds main Headers to the table.
-function addTableHeaders (theTable, ...allHeaders) {
-    var newTableRow = document.createElement('tr')
-    var newTableHeader
-    for (let aHeader of allHeaders) {
-      newTableHeader = document.createElement('th')
-      newTableHeader.innerHTML = aHeader
-      newTableRow.appendChild(newTableHeader)
-    }
-      theTable.appendChild(newTableRow)
+  var newTable
+  newTable = document.createElement('table')
+  newTable.setAttribute('border', '1')
+  appendTo.appendChild(newTable)
+  return newTable
 }
 
-//appends seconary headers to a table.
-function addSecondaryHeaders (theHeader, ...allHeaders) {
-    theFoundHeader= theHeader
-    for (let aHeader of allHeaders) {
-      newTableHeader = document.createElement('th')
-      newTableHeader.innerHTML = aHeader
-      theFoundHeader.appendChild(newTableHeader)
-    }
-}  
+// adds main Headers to the table.
+function addTableHeaders (theTable, ...allHeaders) {
+  var newTableRow = document.createElement('tr')
+  var newTableHeader
+  for (let aHeader of allHeaders) {
+    newTableHeader = document.createElement('th')
+    newTableHeader.innerHTML = aHeader
+    newTableRow.appendChild(newTableHeader)
+  }
+  theTable.appendChild(newTableRow)
+}
 
-//appends data to a table row
+// appends seconary headers to a table.
+function addSecondaryHeaders (theHeader, ...allHeaders) {
+  theFoundHeader = theHeader
+  for (let aHeader of allHeaders) {
+    newTableHeader = document.createElement('th')
+    newTableHeader.innerHTML = aHeader
+    theFoundHeader.appendChild(newTableHeader)
+  }
+}
+
+// appends data to a table row
 function addTableData (theRow, ...allData) {
   var newTableData
   for (let data of allData) {
@@ -42,12 +44,12 @@ function addTableData (theRow, ...allData) {
   }
 }
 
-//appends further data to a target row
+// appends further data to a target row
 function addSecondaryData (theRow, ...allData) {
-    theFoundData = theRow
-    for (let aDataPoint of allData) {
-      newTableDataPoint = document.createElement('td')
-      newTableDataPoint.innerHTML = aDataPoint
-      theFoundData.appendChild(newTableDataPoint)
-    }
+  theFoundData = theRow
+  for (let aDataPoint of allData) {
+    newTableDataPoint = document.createElement('td')
+    newTableDataPoint.innerHTML = aDataPoint
+    theFoundData.appendChild(newTableDataPoint)
   }
+}
