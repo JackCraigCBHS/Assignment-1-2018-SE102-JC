@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 class Sport {
   constructor (newName, newVenue) {
     this.name = newName

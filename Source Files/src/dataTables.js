@@ -1,5 +1,3 @@
-/* eslint-disable no-unused-vars */
-
 // This file is to create tables
 // Provided from Moodle
 

@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 var loadedHandler = function (event) {
   var myData = JSON.parse(event.target.result)
   the2018Games = Controller.setup(myData)

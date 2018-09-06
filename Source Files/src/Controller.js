@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 class Controller {
   static setup (theTournament) {
     const APRIL = 3 // JAN = 0!

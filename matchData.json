@@ -1,0 +1,422 @@
+{
+  "name": "Gold Coast 2018 Commonwealth Games",
+  "sports": [
+    {
+      "name": "Netball",
+      "venue": "Gold Coast Convention and Exhibition Centre",
+
+      "allMyMatches": [
+        {
+          "when": "Thu Apr 05 2018 1:00:00 PM",
+          "pool": "A",
+          "teamA": "Jamaica",
+          "teamB": "Fiji"
+        },
+        {
+          "when": "Thu Apr 05 2018 3:00:00 PM",
+          "pool": "B",
+          "teamA": "England",
+          "teamB": "Scotland"
+        },
+        {
+          "when": "Thu Apr 05 2018 6:30:00 PM",
+          "pool": "B",
+          "teamA": "New Zealand",
+          "teamB": "Uganda"
+        },
+        {
+          "when": "Thu Apr 05 2018 8:30:00 PM",
+          "pool": "A",
+          "teamA": "Australia",
+          "teamB": "Northern Ireland"
+        },
+        {
+          "when": "Fri Apr 06 2018 1:00:00 PM",
+          "pool": "B",
+          "teamA": "Wales",
+          "teamB": "New Zealand"
+        },
+        {
+          "when": "Fri Apr 06 2018 3:00:00 PM",
+          "pool": "A",
+          "teamA": "South Africa",
+          "teamB": "Jamaica"
+        },
+        {
+          "when": "Fri Apr 06 2018 6:30:00 PM",
+          "pool": "B",
+          "teamA": "Malawi",
+          "teamB": "England"
+        },
+        {
+          "when": "Fri Apr 06 2018 8:30:00 PM",
+          "pool": "A",
+          "teamA": "Barbados",
+          "teamB": "Australia"
+        },
+        {
+          "when": "Sat Apr 07 2018 1:00:00 PM",
+          "pool": "B",
+          "teamA": "Uganda",
+          "teamB": "Malawi"
+        },
+        {
+          "when": "Sat Apr 07 2018 3:00:00 PM",
+          "pool": "A",
+          "teamA": "Northern Ireland",
+          "teamB": "South Africa"
+        },
+        {
+          "when": "Sat Apr 07 2018 6:30:00 PM",
+          "pool": "B",
+          "teamA": "Scotland",
+          "teamB": "Wales"
+        },
+        {
+          "when": "Sat Apr 07 2018 8:30:00 PM",
+          "pool": "A",
+          "teamA": "Fiji",
+          "teamB": "Barbados"
+        },
+        {
+          "when": "Sun Apr 08 2018 1:00:00 PM",
+          "pool": "A",
+          "teamA": "Jamaica",
+          "teamB": "Northern Ireland"
+        },
+        {
+          "when": "Sun Apr 08 2018 3:00:00 PM",
+          "pool": "B",
+          "teamA": "England",
+          "teamB": "Uganda"
+        },
+        {
+          "when": "Sun Apr 08 2018 6:30:00 PM",
+          "pool": "B",
+          "teamA": "Malawi",
+          "teamB": "New Zealand"
+        },
+        {
+          "when": "Sun Apr 08 2018 8:30:00 PM",
+          "pool": "A",
+          "teamA": "Australia",
+          "teamB": "South Africa"
+        },
+        {
+          "when": "Mon Apr 09 2018 1:00:00 PM",
+          "pool": "B",
+          "teamA": "England",
+          "teamB": "Wales"
+        },
+        {
+          "when": "Mon Apr 09 2018 3:00:00 PM",
+          "pool": "A",
+          "teamA": "Fiji",
+          "teamB": "Australia"
+        },
+        {
+          "when": "Mon Apr 09 2018 6:30:00 PM",
+          "pool": "A",
+          "teamA": "Jamaica",
+          "teamB": "Barbados"
+        },
+        {
+          "when": "Mon Apr 09 2018 8:30:00 PM",
+          "pool": "B",
+          "teamA": "New Zealand",
+          "teamB": "Scotland"
+        },
+        {
+          "when": "Tue Apr 10 2018 1:00:00 PM",
+          "pool": "A",
+          "teamA": "Barbados",
+          "teamB": "Northern Ireland"
+        },
+        {
+          "when": "Tue Apr 10 2018 3:00:00 PM",
+          "pool": "B",
+          "teamA": "Scotland",
+          "teamB": "Malawi"
+        },
+        {
+          "when": "Tue Apr 10 2018 6:30:00 PM",
+          "pool": "A",
+          "teamA": "South Africa",
+          "teamB": "Fiji"
+        },
+        {
+          "when": "Tue Apr 10 2018 8:30:00 PM",
+          "pool": "B",
+          "teamA": "Wales",
+          "teamB": "Uganda"
+        },
+        {
+          "when": "Wed Apr 11 2018 9:00:00 AM",
+          "pool": "B",
+          "teamA": "New Zealand",
+          "teamB": "England"
+        },
+        {
+          "when": "Wed Apr 11 2018 11:00:00 AM",
+          "pool": "A",
+          "teamA": "South Africa",
+          "teamB": "Barbados"
+        },
+        {
+          "when": "Wed Apr 11 2018 2:00:00 PM",
+          "pool": "A",
+          "teamA": "Northern Ireland",
+          "teamB": "Fiji"
+        },
+        {
+          "when": "Wed Apr 11 2018 4:00:00 PM",
+          "pool": "B",
+          "teamA": "Uganda",
+          "teamB": "Scotland"
+        },
+        {
+          "when": "Wed Apr 11 2018 7:00:00 PM",
+          "pool": "B",
+          "teamA": "Malawi",
+          "teamB": "Wales"
+        },
+        {
+          "when": "Wed Apr 11 2018 9:00:00 PM",
+          "pool": "A",
+          "teamA": "Australia",
+          "teamB": "Jamaica"
+        }
+      ]
+    },
+    {
+      "name": "Men's Rugby Sevens",
+      "venue": "Robina Stadium",
+
+      "allMyMatches": [
+        {
+          "when": "Sat Apr 14 2018 9:30:00 AM",
+          "pool": "B",
+          "teamA": "Australia",
+          "teamB": "Samoa"
+        },
+        {
+          "when": "Sat Apr 14 2018 9:30:00 AM",
+          "pool": "B",
+          "teamA": "England",
+          "teamB": "Jamaica"
+        },
+        {
+          "when": "Sat Apr 14 2018 10:30:00 AM",
+          "pool": "C",
+          "teamA": "Canada",
+          "teamB": "Kenya"
+        },
+        {
+          "when": "Sat Apr 14 2018 10:30:00 AM",
+          "pool": "C",
+          "teamA": "New Zealand",
+          "teamB": "Zambia"
+        },
+        {
+          "when": "Sat Apr 14 2018 11:30:00 AM",
+          "pool": "D",
+          "teamA": "Wales",
+          "teamB": "Uganda"
+        },
+        {
+          "when": "Sat Apr 14 2018 11:30:00 AM",
+          "pool": "D",
+          "teamA": "Fiji",
+          "teamB": "Sri Lanka"
+        },
+        {
+          "when": "Sat Apr 14 2018 12:30:00 PM",
+          "pool": "A",
+          "teamA": "Scotland",
+          "teamB": "Papua New Guinea"
+        },
+        {
+          "when": "Sat Apr 14 2018 12:20:00 PM",
+          "pool": "A",
+          "teamA": "South Africa",
+          "teamB": "Malaysia"
+        },
+        {
+          "when": "Sat Apr 14 2018 2:30:00 PM",
+          "pool": "B",
+          "teamA": "Australia",
+          "teamB": "Jamaica"
+        },
+        {
+          "when": "Sat Apr 14 2018 2:30:00 PM",
+          "pool": "B",
+          "teamA": "England",
+          "teamB": "Samoa"
+        },
+        {
+          "when": "Sat Apr 14 2018 3:30:00 PM",
+          "pool": "C",
+          "teamA": "Canada",
+          "teamB": "Zambia"
+        },
+        {
+          "when": "Sat Apr 14 2018 3:30:00 PM",
+          "pool": "C",
+          "teamA": "New Zealand",
+          "teamB": "Kenya"
+        },
+        {
+          "when": "Sat Apr 14 2018 5:30:00 PM",
+          "pool": "D",
+          "teamA": "Wales",
+          "teamB": "Sri Lanka"
+        },
+        {
+          "when": "Sat Apr 14 2018 5:30:00 PM",
+          "pool": "D",
+          "teamA": "Fiji",
+          "teamB": "Uganda"
+        },
+        {
+          "when": "Sat Apr 14 2018 6:00:00 PM",
+          "pool": "A",
+          "teamA": "Scotland",
+          "teamB": "Malaysia"
+        },
+        {
+          "when": "Sat Apr 14 2018 6:00:00 PM",
+          "pool": "A",
+          "teamA": "South Africa",
+          "teamB": "Papua New Guinea"
+        },
+        {
+          "when": "Sat Apr 14 2018 7:00:00 PM",
+          "pool": "B",
+          "teamA": "Samoa",
+          "teamB": "Jamaica"
+        },
+        {
+          "when": "Sat Apr 14 2018 7:00:00 PM",
+          "pool": "B",
+          "teamA": "England",
+          "teamB": "Australia"
+        },
+        {
+          "when": "Sat Apr 14 2018 7:30:00 PM",
+          "pool": "C",
+          "teamA": "Kenya",
+          "teamB": "Zambia"
+        },
+        {
+          "when": "Sat Apr 14 2018 7:30:00 PM",
+          "pool": "C",
+          "teamA": "New Zealand",
+          "teamB": "Canada"
+        },
+        {
+          "when": "Sat Apr 14 2018 8:00:00 PM",
+          "pool": "D",
+          "teamA": "Uganda",
+          "teamB": "Sri Lanka"
+        },
+        {
+          "when": "Sat Apr 14 2018 8:00:00 PM",
+          "pool": "D",
+          "teamA": "Fiji",
+          "teamB": "Wales"
+        },
+        {
+          "when": "Sat Apr 14 2018 8:30:00 PM",
+          "pool": "A",
+          "teamA": "Papua New Guinea",
+          "teamB": "Malaysia"
+        },
+        {
+          "when": "Sat Apr 14 2018 8:30:00 PM",
+          "pool": "A",
+          "teamA": "South Africa",
+          "teamB": "Scotland"
+        }
+      ]
+    },
+    {
+      "name": "Women's Rugby Sevens",
+      "venue": "Robina Stadium",
+
+      "allMyMatches": [
+        {
+          "when": "Fri Apr 13 2018 4:30:00 PM",
+          "pool": "A",
+          "teamA": "Canada",
+          "teamB": "South Africa"
+        },
+        {
+          "when": "Fri Apr 13 2018 4:30:00 PM",
+          "pool": "A",
+          "teamA": "New Zealand",
+          "teamB": "Kenya"
+        },
+        {
+          "when": "Fri Apr 13 2018 5:30:00 PM",
+          "pool": "B",
+          "teamA": "Fiji",
+          "teamB": "England"
+        },
+        {
+          "when": "Fri Apr 13 2018 5:30:00 PM",
+          "pool": "B",
+          "teamA": "Australia",
+          "teamB": "Wales"
+        },
+        {
+          "when": "Fri Apr 13 2018 6:30:00 PM",
+          "pool": "A",
+          "teamA": "Canada",
+          "teamB": "Kenya"
+        },
+        {
+          "when": "Fri Apr 13 2018 6:30:00 PM",
+          "pool": "A",
+          "teamA": "New Zealand",
+          "teamB": "South Africa"
+        },
+        {
+          "when": "Fri Apr 13 2018 7:30:00 PM",
+          "pool": "B",
+          "teamA": "Fiji",
+          "teamB": "Wales"
+        },
+        {
+          "when": "Fri Apr 13 2018 7:30:00 PM",
+          "pool": "B",
+          "teamA": "Australia",
+          "teamB": "England"
+        },
+        {
+          "when": "Sat Apr 14 2018 1:30:00 PM",
+          "pool": "A",
+          "teamA": "South Africa",
+          "teamB": "Kenya"
+        },
+        {
+          "when": "Sat Apr 14 2018 1:30:00 PM",
+          "pool": "A",
+          "teamA": "New Zealand",
+          "teamB": "Canada"
+        },
+        {
+          "when": "Sat Apr 14 2018 6:30:00 PM",
+          "pool": "B",
+          "teamA": "England",
+          "teamB": "Wales"
+        },
+        {
+          "when": "Sat Apr 14 2018 6:30:00 PM",
+          "pool": "B",
+          "teamA": "Australia",
+          "teamB": "Fiji"
+        }
+      ]
+    }
+  ]
+}

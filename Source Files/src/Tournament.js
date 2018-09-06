@@ -1,4 +1,3 @@
-
 /* global Sport View */
 class Tournament {// eslint-disable-line no-unused-vars
   constructor (newName) {
@@ -125,10 +124,10 @@ class Tournament {// eslint-disable-line no-unused-vars
     theDisplay.appendChild(returnAll)
 
     // remove input files so it doesnt break again
-    let theInputRemove = document.getElementById('divloader')
-    theInputRemove.remove()
-    let theButtonRemove = document.getElementById('displayButton')
-    theButtonRemove.remove()
+    let theInputtoBeBurntAtTheStake = document.getElementById('divloader')
+    theInputtoBeBurntAtTheStake.remove()
+    let theButtontoBeBurntAtTheStake = document.getElementById('faggot')
+    theButtontoBeBurntAtTheStake.remove()
   }
 
   findSport (targetName) {
